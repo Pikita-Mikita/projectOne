@@ -1,16 +1,4 @@
-#top = int(input("Введите количество вершин: "))
-#edge = int(input("Введите количество ребер: "))
-
-# graphMatrix = []
-
-# for i in range(top):
-#    graphMatrix.append([])
-#    for j in range(top):
-#        graphMatrix[i].append([])
-#    print(graphMatrix[i])
-# text = "Введите с какими ребрами связана эта вершина"
-# graphMatrix=[[int(x) for x in input(text).split()] for i in range(top)]
-# print(graphMatrix)
+# Программа обрабатывает графы
 
 def read_graph():
     m = int(input('Введите кол_во вершин:'))
